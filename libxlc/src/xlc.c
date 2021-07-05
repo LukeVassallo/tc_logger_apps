@@ -2,8 +2,12 @@
  * Luke Vassallo @ 2021/07/05 9:37
  * XLCn (XLC2 / XLC4) thermocouple data.
  */
-
-#include "parser.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <string.h>
+#include "xlc.h"
 
 // Parses a <CR><LF> terminated string as received from an XLCn device and stores data in floating point format. 
 // Accepts a string as received from an XLCn device and a pointer to a thermocouple data structure.

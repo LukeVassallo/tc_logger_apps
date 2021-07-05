@@ -244,7 +244,7 @@ int main(int argc, char **argv)
 
     if (argc < 2) 
     { 
-        printf("Error: Incorrect usage. ./logger_simple <serial-device>\r\n"); 
+        printf("Error: Incorrect usage. ./parser <serial-device>\r\n"); 
         exit(-1);
     }
 

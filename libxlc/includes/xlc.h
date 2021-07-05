@@ -3,11 +3,11 @@
  * XLCn (XLC2 / XLC4) thermocouple data.
  */
 
-#ifndef PARSER_H_
-#define PARSER_H_
+#ifndef XLC_H_
+#define XLC_H_
 
 /* includes */
-#include "parser.h"
+#include "xlc.h"
 #include "data.h"
 
 /* Definitions */
@@ -24,4 +24,4 @@ int parse_tlogb(char *s, struct tc_data *dat);  // Parses a <CR><LF> terminated 
 int print_tloga(struct tc_data *dat);           // Prints data to standard output, assuming structure contains data parsed from TLOGA
 int print_tlogb(struct tc_data *dat);           // Prints data to standard output, assuming structure contains data parsed from TLOGB
 
-#endif /* PARSER_H_ */
+#endif /* XLC_H_ */
