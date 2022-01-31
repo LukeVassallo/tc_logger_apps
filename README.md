@@ -28,7 +28,11 @@ This repository, has so far been tested in Ubuntu 18.04.
     ```
 5. Optionally download the Thermocouple Configuration and Logging Software to effortlessly get acquainted with the device. 
     ```sh
+    # Linux debian
     source ./scripts/get_lnx_sw.sh
+    
+    # Windows
+    source ./scripts/get_win_sw.sh
     ```
 
 ### Configuring the serial port: 
