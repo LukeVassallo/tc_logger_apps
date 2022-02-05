@@ -8,6 +8,12 @@ This Repository contains a collection of applications to facilitate the integrat
 
 This repository, has so far been tested in Ubuntu 18.04.
 
+### Contents:
+Three directories are of interest:
+1. simple_parser - Contains a c progam that reads data from a serial port, parses it and prints the result to standard output. 
+2. libxlc - Thermocouple parsing code in (1) is packaged into a library to facilitate integration into other projects. 
+3. parser - Demo application. Same function as simple_parser however is linked against libxlc.
+
 ### Basic usage: 
 1. Clone the repository and change into the directory.
     ```sh

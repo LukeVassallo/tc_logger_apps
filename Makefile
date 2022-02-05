@@ -10,13 +10,13 @@ help :
 	@echo " HELP "
 	@echo "======"
 	@echo ""
-	@echo "usage: make CROSS_COMPILE=... all - removes all library and application files (clean all) then rebuilds."
-	@echo ""
-	@echo "usage: make clean_all - removes all library and application files."
-	@echo "usage: make CROSS_COMPILE=... <project-name> - builds the specific project and if required dependent libraries."
+	@echo "usage: make [CROSS_COMPILE=...] all - removes all library and application files (clean all) then rebuilds."
+	@echo "usage: make [CROSS_COMPILE=...] <project-name> - builds the specific project and if required dependent libraries."
+	@echo "       valid project names include: 'parser_simple' and 'parser_production'"
 	@echo ""
 	@echo "make clean - cleans all application build files."
 	@echo "make clean_libs - cleans all library files."
+	@echo "make clean_all - cleans all application build files and library files."
 
 parser_simple : $(parser_simple) 
 
